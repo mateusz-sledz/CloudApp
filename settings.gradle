@@ -1,0 +1,3 @@
+rootProject.name = 'CloudMultimodule'
+include 'MainApp'
+include 'Sockets'

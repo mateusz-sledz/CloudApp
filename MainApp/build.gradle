@@ -1,0 +1,13 @@
+plugins{
+    id 'application'
+}
+
+mainClassName = "$moduleName/com.app.Main"
+
+dependencies{
+    testCompile group: 'junit', name:'junit', version: '4.12'
+    implementation project(':Sockets')
+}
+
+
+ext.moduleName = 'MainApp'
